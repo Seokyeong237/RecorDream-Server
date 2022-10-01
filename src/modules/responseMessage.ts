@@ -36,6 +36,12 @@ const message = {
   UPDATE_NOTICE_FAIL: "푸시알림 시간 수정 실패",
   NOT_FOUND_FCM: "존재하지 않는 유저 또는 FCM 토큰",
   POST_NOTICE_ALREADY: "해당 토큰으로 이미 시간 설정됨",
+
+  // 소셜 로그인
+  NULL_VALUE_TOKEN: "토큰이 없습니다.",
+  LOGIN_SUCCESS: "로그인 성공",
+  LOGIN_FAIL: "로그인 실패",
+  ONE_TOKEN: "토큰 값은 하나입니다.",
 };
 
 export default message;

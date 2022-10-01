@@ -39,7 +39,14 @@ export default {
   webhookURL: process.env.SLACK_WEBHOOK_URL as string,
 
   /**
-   * FCM_TOKEN_IOS
+   * jwt Secret
    */
-  fcm_token_ios: process.env.FCM_TOKEN_IOS as string,
+  jwtSecret: process.env.JWT_SECRET as string,
+
+  /**
+   * jwt Algorithm
+   */
+  jwtAlgo: process.env.JWT_ALGO as string,
+
+  fcm_token_ios: "vdfcecewcwecew",
 };
