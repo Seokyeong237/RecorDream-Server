@@ -7,4 +7,5 @@ export interface UserInfo {
   is_notified: boolean;
   time: string | null;
   fcm_token: string[];
+  accessToken: string;
 }

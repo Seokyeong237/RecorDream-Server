@@ -7,22 +7,28 @@ const UserSchema = new mongoose.Schema({
   },
   email: {
     type: String,
-    required: true,
     unique: true,
-  },
-  password: {
-    type: String,
-    required: true,
   },
   emotion_arr: {
     type: Array,
   },
-  is_deleted: {
+  isAlreadyUser: {
     type: Boolean,
   },
   fcm_token: {
     type: [String],
     unique: true,
+  },
+  accessToken: {
+    type: String,
+    required: true,
+    unique: true,
+  },
+  gender: {
+    type: String,
+  },
+  age_range: {
+    type: String,
   },
 });
 
